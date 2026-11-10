@@ -1,0 +1,61 @@
+.header{
+    /* Set the header to be fixed at the top of the page */
+    position: fixed;
+    /* Align the header at the top of the page */
+    top: 0;
+    /* Align the header to the left of the page */
+    left: 0;
+    /* Align the header to the right of the page */
+    right: 0;
+    /* Set the z-index to ensure the header appears above other elements */
+    z-index: 10;
+    /* To arrange the header's elements horizontally */
+    display: flex;
+    /* Distribute the elements evenly */
+    justify-content: space-between;
+    background-color: #262637;
+    color: white;
+    padding: 0.625rem 1.25rem; /* 10px = 0.625rem, 20px = 1.25rem */
+}
+
+.item .icon{
+    color: #2CDEB6;
+    /* Add some space to the right of the icon */
+    margin-right: 8px; /* 10px = 0.625rem */
+}
+
+.item{
+    /* use flexbox for aligning items */
+    display: flex;
+    /* align items vertically */
+    align-items: center;
+}
+
+.item span{
+    /* Make the text bold */
+    font-weight: bold;
+}
+
+.brand{
+    /* Increase the font size for the brand name */
+    font-size: 1.5rem; /* 20px = 1.25rem */
+}
+
+.contact{
+    /* Increase the font size for the contact information */
+    font-size: 1rem; /* 16px = 1rem */
+}
+
+@media (max-width: 800px) {
+    .header{
+        /* Stack the items vertically on smaller screens */
+        flex-direction: column;
+        /* Center the items */
+        align-items: center;
+    }
+
+    .item{
+        /* Add some space between items */
+        margin-bottom: 0.5rem; /* 8px = 0.5rem */
+    }
+}

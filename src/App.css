@@ -1,0 +1,16 @@
+html{
+    /* Set the base font size for the entire application */
+    font-size: 16px;
+}
+
+.app{
+    margin-top: 4rem; /* 64px = 4rem */
+}
+
+/* Media query for screens with a maximum width of 800px */
+@media (max-width: 800px) {
+    .app{
+        /* Add more top margin for smaller screens to accommodate the stacked header */
+        margin-top: 10rem; /* 160px = 10rem */
+    }
+}
