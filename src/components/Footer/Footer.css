@@ -1,0 +1,36 @@
+.footer{
+    position: fixed; /* Fix the footer at the bottom */
+    bottom: 0; /* Align to the bottom of the viewport */
+    left: 0; /* Align to the left of the viewport */
+    right: 0; /* Align to the right of the viewport */
+    z-index: 10; /* Ensure the footer is above other content */
+    background-color: #262637; /* Dark background color */
+    color: #FFFFFF; /* White text color */
+    font-size: 1rem; /* 16px = 1rem */
+    text-align: center; /* Center the text */
+    padding: 0.625rem 0; /* 10px = 0.625rem */
+}
+
+.message{
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+
+}
+
+.footer .icon{
+    margin-right: 0.5rem; /* 8px = 0.5rem */
+    color: #2CDEB6; /* 20px = 1.25rem */
+}
+
+.footer .status{
+    font-weight: bold
+}
+
+.footer .status.open{
+    color: #2CDEB6; 
+}
+
+.footer .status.closed{
+    color: #DC3545;
+}
