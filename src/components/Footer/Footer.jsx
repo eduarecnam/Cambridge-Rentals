@@ -15,8 +15,7 @@ const Footer = () => {
     /*Check if the current day is a weekday (Monday to Friday)*/
     const isWeekday = currentDay >= 1 && currentDay <= 5;
     /*Check if the current hour is within the opening hours (hours between 0 and 23*/
-    const isOpen = false;
-    // isWeekday && currentHour >= openingHour && currentHour < closingHour;
+    const isOpen = isWeekday && currentHour >= openingHour && currentHour < closingHour;
     
     const openElement =(
         <>
