@@ -1,0 +1,14 @@
+.property-list{
+    /* Use flexbox for layout */
+    display: flex; 
+    /* tells the flexbox container to wrap its items onto multiple lines if they all don't fit on a single line */
+    flex-wrap: wrap;
+    /* center th eitems horizontally */
+    justify-content: center;
+    /* Add space between items */
+    gap: 1.25rem; /* 20px = 1.25rem */
+    /* add padding inside the list */
+    padding: 1.25rem;
+    
+
+}

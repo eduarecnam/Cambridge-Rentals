@@ -1,0 +1,12 @@
+.property-image{
+    /*ensure the image takes up the full width of its parent*/
+    width: 100%; 
+    /* 200px = 12.5rem */
+    height: 12.5rem; 
+    /* Scale the background image to cover the container keeping aspect ratio*/
+    background-size: cover; 
+    /* center the background image */
+    background-position: center; 
+    /* Create a positioning context for child elements */
+    position: relative; 
+}
