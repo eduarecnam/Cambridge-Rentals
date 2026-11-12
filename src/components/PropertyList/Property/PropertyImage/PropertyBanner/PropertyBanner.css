@@ -1,0 +1,17 @@
+.banner{
+    /* Set the banner background color to red */
+    background-color: #dc3545;
+    /* text color */
+    color: white;
+    padding: 0.3125rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+    position: absolute;
+    /*rotate the bbanner diagonally */
+    transform: rotate(-45deg);
+    /* position the banner 1rem from the top */
+    top: 1rem;
+    /* position the banner 1.5625rem to the left */
+    left: -1.5625rem;
+}
