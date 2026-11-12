@@ -10,6 +10,21 @@
     overflow: hidden; 
     /* Ensure all the cards have a consistent width (same width) */
     width: 18.75rem; /* 300px = 18.75rem */
-    
+}
 
+.property-info{
+    /* Add a semi-transparent black background */
+    background: rgba(0, 0, 0, 0.7);
+    /* Set the text color to white */
+    color: #fff;
+    font-size: 0.875rem;
+    /* Position the info box within the property image */
+    position: absolute;
+    /* Position the info ox 0.625rem from the bottom */
+    bottom: 0.625rem;
+    /* Position the info ox 0.625rem from the right */
+    right: 0.625rem;
+    padding: 0.3125rem 0.625rem;
+    /* Round the corners of the info box */
+    border-radius: 0.25rem;
 }
