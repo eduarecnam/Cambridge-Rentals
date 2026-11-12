@@ -1,9 +1,8 @@
 import './PropertyTypeLabel.css';
-const PropertyTypeLabel = () => {
+const PropertyTypeLabel = ({ type }) => {
     return ( 
-        <div>
-
-        </div>
+        (<div className="property-type-label"> {type} </div>)
+        
      );
 };
  

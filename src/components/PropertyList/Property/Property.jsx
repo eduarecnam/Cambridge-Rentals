@@ -1,6 +1,6 @@
 import './Property.css';
 import PropertyImage from "./PropertyImage/PropertyImage"
-
+import PropertyTypeLabel from "./PropertyImage/PropertyTypeLabel/PropertyTypeLabel"
 const Property = ({
     image,
     bedrooms,
@@ -17,7 +17,7 @@ const Property = ({
             style={{opacity: !available ? "0.5" : "1"}}
         >
             <PropertyImage image={image}>
-                property details
+                <PropertyTypeLabel type={type} />
             </PropertyImage>    
             <div> Property Attributes </div>
         </div>
